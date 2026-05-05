@@ -85,6 +85,14 @@ cd path/to/escapegenecalculator
 Rscript R/setup/generate_config.R -i data/berletch-spleen -o output-2  # default
 Rscript R/escapegenecalculator.R -i data/berletch-spleen
 ```
+For Updated Pipeline with Valid Gene List Generation: 
+```bash
+cd path/to/escapegenecalculator
+
+# data/berletch-spleen
+Rscript R/setup/generate_config.R -i data/berletch-spleen -o output-2  # default
+Rscript R/escapegenecalculator2.R -i data/berletch-spleen
+```
 
 ## Contributing
 
