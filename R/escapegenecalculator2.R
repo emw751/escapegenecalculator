@@ -3,7 +3,7 @@
 ## normalizes, computes confidence intervals, then outputs a list of escape genes.
 ## 
 ## Usage:
-## Rscript R/escapegenecalculator.R -i data/berletch-spleen
+## Rscript R/escapegenecalculator2.R -i data/berletch-spleen
 
 wd = dirname(this.path::here())  # wd = '~/github/R/escapegenecalculator'
 library('optparse')
